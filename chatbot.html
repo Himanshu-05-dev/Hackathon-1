@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-options">
+            <ul>
+                <li class="options Fonts"><a href="index.html"><img src="home.png" alt="">Home</a></li>
+                <li class="options Fonts"><a href="index.html#sec-2"><img src="services.png" alt="">Services</a></li>
+                <li class="options Fonts"><a href="index.html#sec-3"><img src="support.png" alt="">Contact us</a></li>
+                <li class="options Fonts"><a href="faq.html"><img src="faqs.png" alt="">FAQs</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                <h2>Finance Chatbot</h2>
+                <p>Your guide to financial solutions by <b>Conquer-Code</b></p>
+            </div>
+            <div id="chat-area" class="chat-area">
+                <div class="bot-message">
+                    Hi there! I'm your finance assistant working for <b>Conquer-Code</b>, the ultimate solution for all your financial needs. Ask me anything about finance, and I’ll do my best to help!
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your question here..." />
+                <button id="send-btn">Send</button>
+                <button id="clear-btn">Clear Chat</button>
+            </div>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>

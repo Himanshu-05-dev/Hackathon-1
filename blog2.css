@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: linear-gradient(180deg, #ffecd2, #fcb69f);
+    background-size: 200% 200%;
+    animation: backgroundMove 10s infinite alternate;
+}
+
+/* Hero Section */
+header.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Content Section */
+section.content {
+    padding: 20px 15px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p, ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style: disc;
+}
+
+/* Background Animation */
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header.hero h1 {
+        font-size: 2.5rem;
+    }
+
+    header.hero p {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p, ul li {
+        font-size: 1rem;
+    }
+}

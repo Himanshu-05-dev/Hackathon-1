@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    background: linear-gradient(180deg, #eaf4ff, #f9fcff);
+    animation: backgroundFlow 10s infinite alternate;
+}
+
+/* Hero Section */
+header.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: #1abc9c;
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+header.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+header.hero p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Blog Content */
+section.content {
+    padding: 20px 15px;
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #16a085;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #2980b9;
+}
+
+p, ul li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    list-style: disc;
+}
+
+/* Background Animation */
+@keyframes backgroundFlow {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header.hero h1 {
+        font-size: 2.8rem;
+    }
+
+    header.hero p {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p, ul li {
+        font-size: 1rem;
+    }
+}
