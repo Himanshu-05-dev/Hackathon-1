@@ -1,4 +1,7 @@
 const responses = {
+    "finance": "Finance is the study and management of money and it involves a variety of activities like investing,lending,budgeting and saving.",
+    "account": "The term account refers to a storage place for money ,gold and jewelleries.",
+    "bank account": "The term bank account refers to having a space in the bank to hokd your money , gold and jewellery.",
     // Accounts
     "savings account": "A savings account is for individuals to save money and earn interest.",
     "current account": "A current account is used for frequent transactions, typically by businesses.",
