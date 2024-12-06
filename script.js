@@ -16,7 +16,7 @@ document.getElementById('calculate').addEventListener('click', function () {
         balanceElement.textContent = `Balance: Rs.${balance.toFixed(2)} (You are within budget!)`;
         balanceElement.style.color = 'green';
     } else {
-        balanceElement.textContent = `Balance: RS.{balance.toFixed(2)} (You are over budget!)`;
+        balanceElement.textContent = `Balance: RS.${balance.toFixed(2)} (You are over budget!)`;
         balanceElement.style.color = 'red';
     }
 });
