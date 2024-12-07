@@ -41,6 +41,7 @@ body {
     padding: 20px;
     overflow-y: auto;
     background: #eaf7f4;
+    max-height: 60vh;
 }
 
 .chat-area .bot-message, .chat-area .user-message {
